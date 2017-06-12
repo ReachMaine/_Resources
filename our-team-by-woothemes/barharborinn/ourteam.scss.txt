@@ -1,0 +1,88 @@
+/* Team Members */
+
+.team-members {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.team-member {
+	width: 32%;
+	padding: 10px;
+	border: 1px solid #cbaa5c;
+	border-radius: 5px;
+	margin: 8px 0px;
+	.member { // title
+		margin: 5px 0px;
+		text-align: center;
+		line-height: 30px;
+	}
+	.role {
+		text-align: center;
+		line-height: 20px;
+		margin-bottom: 5px;
+	}
+	.team-member-text {
+		.bhi-team-since {
+			text-align:center;
+			margin-bottom: 5px;
+			font-style: italic;
+		}
+		.panel-group {
+			border-top: 1px solid $light-gold;
+		}
+		.fusion-accordian {
+
+			.panel-title a .fa-fusion-box {
+				background-color: $bhi-blue-grey;
+			}
+			.panel-title {
+				.fusion-toggle-icon-wrapper {
+					float: none;
+					text-align: center;
+				}
+				.fusion-toggle-heading  {
+					display: none;
+				}
+			}
+
+			.panel-body {
+				margin-top: 0px;
+			}
+		}
+
+	}
+	.author-details {
+		margin: 0px;
+	}
+}
+
+.team-member figure {
+	//float: left;
+	margin:0px 4px 0px 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.team-member img {
+	border-radius: 5px;
+}
+
+div.fusion-toggle-heading {
+	padding: 5px;
+}
+
+@media (max-width: 768px) {
+	.team-member {
+		// width: 95%;
+		figure {
+			width: 100%;
+			text-align: center;
+		}
+	}
+}
+@media (max-width: 540px) {
+	.team-member {
+		width: 95%;
+	}
+}
