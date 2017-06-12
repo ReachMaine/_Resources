@@ -1,0 +1,13 @@
+Filter available
+	woothemes_our_team_item_template
+	woothemes_our_team_default_args
+	woothemes_our_team_args
+	woothemes_our_team_member_fields_display
+	
+	woothemes_our_team_content
+	woothemes_our_team_display_bio
+	woothemes_our_team_member_html
+	woothemes_our_team_member_tel
+	woothemes_our_team_call_protocol
+	woothemes_our_team_member_user_id
+	woothemes_our_team_member_url
