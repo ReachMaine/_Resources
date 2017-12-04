@@ -1,0 +1,13 @@
+// Tim Suellentrop's FlexBox Guide
+
+.reach-flexbox-parent { //assign this class to the parent with the direct children being the items you want to organize
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; //puts space around each item
+  //OR - only select on for justify-content
+  justify-content: space-between; //puts space between each item, so the fist and last items will be right up against container
+}
+
+.reach-flexbox-item { //assign this class to the direct children of the parent if you want to control the height, width, padding, margin etc.
+
+}
