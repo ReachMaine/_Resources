@@ -1,0 +1,27 @@
+// testimonials
+.easy_t_single_testimonial {
+  
+  blockquote.easy_testimonial {
+    .testimonial_body {
+      blockquote:before {  // quote mark
+      
+      }
+      p {
+        //font-size: 14px;
+        //margin-bottom: 15px;
+      }
+      p.easy_testimonial_title {
+      }
+      .easy_testimonial_title:after {
+          }
+      .testimonial_body:before {
+      }
+
+    } // end body
+
+  	.testimonial_body:after {
+  	}
+  	p.testimonial_author {}
+
+  } // end blockquote
+}

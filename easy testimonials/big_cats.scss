@@ -1,0 +1,41 @@
+// testimonials
+.easy_t_single_testimonial {
+	p.easy_testimonial_title {
+		font-size: 18px;
+		color: #545454;
+		font-family: Rock Salt, cursive;
+    	font-weight: normal !important;
+    	margin-bottom: 15px;
+	}
+	.easy_testimonial_title:after {
+		content: '\201c';
+		float: left;
+		font-size: 60px;
+		color: $accent-color;
+		font-family: initial;
+		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		margin-left: -20px;
+	}
+	.testimonial_body:before {
+	}
+	.testimonial_body {
+		p {
+			font-size: 14px;
+			margin-bottom: 15px;
+		}
+	}
+	.testimonial_body:after {
+		content: '\201d';
+		float: right;
+		font-size: 60px;
+		color: $accent-color;
+		font-family: initial;
+		font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	}
+
+
+	p.testimonial_author {}
+	p.testimonial_author:before{
+
+	}
+}
